@@ -1,3 +1,11 @@
+/* Police d'écriture */
+@font-face{ 
+	font-family: 'Amaranth';
+	src: url('/assets/fonts/Amaranth/Amaranth-Regular.otf') format("otf");
+}
+*{
+    font-family: "Amaranth", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', verdana, Arial, sans-serif;
+}
 /* Burger first */
 #burger {
     width:30px;
@@ -96,7 +104,7 @@ p{
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 75px;
+    padding-bottom: 95px;
 }
 .allwrapper{
     position: relative;
@@ -146,9 +154,6 @@ body.servicesbody p{
     margin: 7px 0 7px 0;
     text-align: center;
 }
-body.servicesbody .last{
-    margin-bottom: 20px;
-}
 body.servicesbody .wrapper{
     align-items: flex-start;
 }
@@ -169,13 +174,13 @@ body.servicesbody .wrapelem{
     margin-right: 20px;
 }
 .notrait{
-    margin-right: 60px;
+    margin-right: 100px;
 }
 .fourfirstdiv{
     width: 210px;
 }
 .fourlastdiv{
-    width: 190px;
+    width: 150px;
     font-size: smaller;
 }
 /* Contact */
@@ -255,14 +260,14 @@ body .imgpresent{
     width: 220px;
 }
 .fourlastdiv{
-    width: 180px;
+    width: 160px;
     font-size: 1em;
 }
 body.servicesbody .wrapper{
     align-items: center;
 }
 .notrait{
-margin-right: 80px;
+margin-right: 100px;
 }
 /* Contact */
 .contactbody * p{
@@ -293,14 +298,14 @@ body.servicesbody .wrapper{
     display: none;
 }
 .notrait{
-    margin-right: 40px ;
+    margin-right: 60px ;
 }
 .fourfirstdiv{
     width: 460px;
     font-size: larger;
 }
 .fourlastdiv{
-    width: 420px;
+    width: 400px;
     font-size: larger;
 }
 /* Contact */

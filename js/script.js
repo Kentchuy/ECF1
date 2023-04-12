@@ -24,7 +24,7 @@ ul.classList.toggle('open')
 // Initialize and add the map
 let map;
 
-async function initMap() {
+function initMap() {
   // The location of cordonnerie
   const position = { lat: 47.11057, lng: -2.06892 };
   // Request needed libraries.

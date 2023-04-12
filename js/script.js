@@ -29,7 +29,7 @@ function initMap() {
   const position = { lat: 47.11057, lng: -2.06892 };
   // Request needed libraries.
   //@ts-ignore
-  const { Map } = await google.maps.importLibrary("maps");
+  const { Map } = google.maps.importLibrary("maps");
 
   // The map, centered at cordonnerie
   map = new Map(document.getElementById("map"), {
